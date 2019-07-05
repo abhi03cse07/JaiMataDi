@@ -1,0 +1,32 @@
+--
+-- PostgreSQL database dump
+--
+
+SET client_encoding = 'SQL_ASCII';
+SET check_function_bodies = false;
+
+SET SESSION AUTHORIZATION 'praveen';
+
+SET search_path = public, pg_catalog;
+
+--
+-- TOC entry 3 (OID 176488)
+-- Name: mail_hr; Type: TABLE; Schema: public; Owner: praveen
+--
+
+CREATE TABLE mail_hr (
+    emp_code smallint
+);
+
+
+--
+-- Data for TOC entry 4 (OID 176488)
+-- Name: mail_hr; Type: TABLE DATA; Schema: public; Owner: praveen
+--
+
+INSERT INTO mail_hr VALUES (500);
+INSERT INTO mail_hr VALUES (506);
+INSERT INTO mail_hr VALUES (505);
+INSERT INTO mail_hr VALUES (94);
+
+

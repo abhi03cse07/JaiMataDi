@@ -1,0 +1,7 @@
+
+CREATE TABLE pa_add_info (
+    pk_sl integer,
+    info character varying
+);
+
+
